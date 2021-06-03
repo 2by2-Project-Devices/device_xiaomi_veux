@@ -11,3 +11,7 @@ vendor.google.wireless_charger::IWirelessCharger                                
 
 # Mlipay
 vendor.xiaomi.hardware.mlipay::IMlipayService                                 u:object_r:hal_mlipay_hwservice:s0
+
+# Rilnv
+vendor.qti.hardware.radio.qcriNvOpt::IqcriNvOpt	                              u:object_r:hal_rilnv_hwservice:s0
+
