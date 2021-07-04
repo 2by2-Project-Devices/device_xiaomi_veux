@@ -25,6 +25,7 @@ import android.util.Log;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.touchsampling.TouchSamplingUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
@@ -47,5 +48,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Per App Refreash Rate
         RefreshUtils.startService(context);        
+
+        // High Touch Sampling
+        TouchSamplingUtils.restoreSamplingValue(context);
     }
 }
