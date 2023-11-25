@@ -63,3 +63,6 @@
 
 # Xiaomi MAC
 /data/vendor/mac_addr(/.*)?                                                    u:object_r:vendor_wifi_vendor_data_file:s0
+
+# Google WirelessCharger
+/vendor/bin/hw/vendor\.google\.wireless_charger@1\.3-service-vendor                                 u:object_r:hal_wlc_exec:s0
