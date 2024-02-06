@@ -4,3 +4,6 @@ ro.vendor.qti.va_odm.support=1
 # SKU properties
 ro.product.property_source_order=odm,product,vendor,system_ext,system
 import /odm/etc/build_${ro.boot.board_id}.prop
+
+# Display
+vendor.display.vds_allow_hwc=false
