@@ -46,6 +46,7 @@
         <library name="volume_listener" path="libvolumelistener.so"/>
         <library name="audiosphere" path="libasphere.so"/>
         <library name="shoebox" path="libshoebox.so"/>
+        <library name="misoundfx" path="libmisoundfx.so"/>
     <!-- DOLBY START -->
         <library name="gamedap" path="libswgamedap.so"/>
         <library name="vqe" path="libswvqe.so"/>
