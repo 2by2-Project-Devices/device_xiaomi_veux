@@ -324,7 +324,8 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayCOMMON \
     DialerOverlayCOMMON \
     TelephonyOverlayCOMMON \
-    ApertureOverlay
+    ApertureOverlay \
+    ApertureQRScannerOverlay
 
 PRODUCT_PACKAGES += \
     FrameworkOverlayVEUX \
