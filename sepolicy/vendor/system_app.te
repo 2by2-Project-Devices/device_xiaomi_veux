@@ -2,6 +2,9 @@
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read open getattr };
 
+# Aware
+get_prop(system_app, vendor_aware_available_prop)
+
 # Xiaomi Parts
 allow system_app sysfs_thermal:file write;
 allow system_app sysfs_thermal:file rw_file_perms;
