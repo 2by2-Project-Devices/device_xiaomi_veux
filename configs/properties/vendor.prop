@@ -165,6 +165,7 @@ vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.display.target.version=3
 vendor.display.use_smooth_motion=1
+vendor.display.disable_partial_split=1
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
