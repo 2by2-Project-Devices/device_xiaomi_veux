@@ -4,6 +4,10 @@ ro.vendor.aware_available           u:object_r:vendor_aware_available_prop:s0
 # Camera
 vendor.camera.sensor.               u:object_r:vendor_camera_sensor_prop:s0
 vendor.camera.sensor.logsystem      u:object_r:vendor_camera_prop:s0
+vendor.panel.display                u:object_r:vendor_camera_prop:s0
+
+# Display
+ro.vendor.display.type	            u:object_r:vendor_display_prop:s0
 
 # Fastcharge HAL
 persist.vendor.sec.fastchg_enabled              u:object_r:vendor_fastcharge_prop:s0
