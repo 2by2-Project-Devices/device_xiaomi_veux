@@ -19,6 +19,9 @@ echo "Cloning MIUI Camera..."
 git clone --depth=1 https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
 git clone --depth=1  https://x-token-auth:ATCTT3xFfGN0IWkL-sntCsnITb6fTEiU1lhQl7w3gUNDf9bUOYJ3cnurlMY3EBI9I4vvUP8p72_h8nbF_nI_1RlaItBjYvRlllNtz9mkdTpcdjdQAf32tDYTBYpY1ueHQI509UEiM1DSF7CG9QZhtCPbrenReXpOSyvyBiTnK_SEMcC7QNIX75w=2D043E66@bitbucket.org/amritokun/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
 
+echo "Cloning Sony Dolby"
+git clone https://github.com/userariii/vendor_sony_dolby.git vendor/sony/dolby
+
 echo "Cloning ViPER4AndroidFX"
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 echo "Completed, proceeding to lunch"
