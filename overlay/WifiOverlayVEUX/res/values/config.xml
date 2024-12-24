@@ -55,4 +55,7 @@
          range string like '1-6,11'. -->
     <string name="config_wifiSoftap2gChannelList" translatable="false" />
 
+     <!-- Indicate the driver support NL80211_REG_CHANGED event. -->
+     <bool translatable="false" name="config_wifiDriverSupportedNl80211RegChangedEvent">false</bool>
+
 </resources>
