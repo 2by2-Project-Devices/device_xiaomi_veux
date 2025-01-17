@@ -258,20 +258,11 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor \
-    libmm-omxcore \
-    libstagefright_softomx.vendor \
-    libstagefrighthw
-
+    libcodec2_vndk.vendor 
+    
 PRODUCT_PACKAGES += \
     libstagefright_softomx_plugin.vendor
 
