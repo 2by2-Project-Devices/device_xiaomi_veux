@@ -86,6 +86,9 @@ on late-fs
     wait_for_prop hwservicemanager.ready true
     mount_all --late
 
+    # Disable native stats collection service
+    stop statsd
+
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     mkdir /data/vendor/thermal 0771 root system
