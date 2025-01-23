@@ -101,8 +101,8 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # Audio
-vendor/lib/hw/audio.primary.holi.so:vendor/lib/hw/audio.primary.veux.so;FIX_SONAME
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_veux.so;FIX_SONAME
+vendor/lib/hw/audio.primary.holi.so
+vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioconfigstore.so
@@ -133,6 +133,7 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
+vendor/lib64/liba2dpoffload.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 

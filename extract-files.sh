@@ -95,10 +95,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
             ;;
-        vendor/lib/hw/audio.primary.veux.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "liba2dpoffload.so" "liba2dpoffload_veux.so" "${2}"
-            ;;
         vendor/lib64/camera/components/com.qti.node.mialgocontrol.so)
             [ "$2" = "" ] && return 0
             llvm-strip --strip-debug "${2}"
