@@ -38,4 +38,5 @@ ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
 # Skia tracing
-debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
