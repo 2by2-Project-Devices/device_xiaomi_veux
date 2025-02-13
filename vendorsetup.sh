@@ -18,4 +18,7 @@ echo "Cloning MIUI Camera..."
 # MIUI Camera
 git clone --depth=1 https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
 git clone --depth=1 https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
+
+echo "Cloning ViPER4AndroidFX"
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 echo "Completed, proceeding to lunch"
