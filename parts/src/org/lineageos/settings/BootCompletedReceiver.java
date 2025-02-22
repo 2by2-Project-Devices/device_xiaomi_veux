@@ -18,9 +18,14 @@
 package org.lineageos.settings;
 
 import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.database.ContentObserver;
 import android.util.Log;
+import android.os.Handler;
+import android.os.UserHandle;
+import android.provider.Settings;
 
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
