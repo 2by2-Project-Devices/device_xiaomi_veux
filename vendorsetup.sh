@@ -4,7 +4,7 @@ rm -rf hardware/qcom-caf/sm8350/audio/configs/holi && git clone https://github.c
 
 echo "Cloning vendor..."
 # Clone Vendor
-git clone --depth=1 https://amritokun-admin@bitbucket.org/amritokun/vendor_xiaomi_veux.git -b 15 vendor/xiaomi/veux
+git clone --depth=1 https://github.com/Amrito-Projects/vendor_xiaomi_veux-new.git -b 15 vendor/xiaomi/veux
 
 echo "Cloning hardware related stuff..."
 # Hardware
