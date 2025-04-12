@@ -8,7 +8,7 @@ git clone --depth=1 https://github.com/Amrito-Projects/vendor_xiaomi_veux-new.gi
 
 echo "Cloning hardware related stuff..."
 # Hardware
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-22.1 hardware/xiaomi
+git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi -b lineage-22.2 hardware/xiaomi
 
 echo "Cloning Kernel"
 # Kernel
