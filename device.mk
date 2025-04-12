@@ -417,6 +417,8 @@ PRODUCT_COPY_FILES += \
 TARGET_BOARD_PLATFORM := holi
 
 # Power
+TARGET_PROVIDES_POWERHAL := true
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr
 
