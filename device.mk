@@ -235,6 +235,19 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
      IFAAService
 
+# INIT
+PRODUCT_PACKAGES += \
+    fstab.default \
+    fstab.default.vendor_ramdisk \
+    fstab.zram \
+    init.device.rc \
+    init.kernel.post_boot-blair.sh \
+    init.qcom.rc \
+    init.qti.kernel.rc \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.qcom.rc
+    
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -450,19 +463,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libutilscallstack.vendor
-
-# Rootdir
-PRODUCT_PACKAGES += \
-    fstab.default \
-    fstab.default.vendor_ramdisk \
-    fstab.zram \
-    init.device.rc \
-    init.kernel.post_boot-blair.sh \
-    init.qcom.rc \
-    init.qti.kernel.rc \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
