@@ -544,8 +544,5 @@ $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
 PRODUCT_PACKAGES += \
     RemovePackagesVeux
 
-# MiuiCamera
-$(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
-
 # Dolby
 $(call inherit-product, vendor/sony/dolby/setup.mk)
