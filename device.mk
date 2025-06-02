@@ -560,8 +560,5 @@ PRODUCT_PACKAGES += \
 # MiuiCamera
 $(call inherit-product, vendor/xiaomi/miuicamera-veux/MiuiCamera-veux.mk)
 
-# Viper4AndroidFX
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Dolby
 $(call inherit-product, vendor/sony/dolby/setup.mk)

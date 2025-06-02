@@ -21,6 +21,4 @@ git clone https://x-token-auth:ATCTT3xFfGN0yGAyPmg8csgUOB4N41KCVUKagu10beAVq3bdr
 echo "Cloning Sony Dolby"
 git clone https://github.com/userariii/vendor_sony_dolby.git vendor/sony/dolby
 
-echo "Cloning ViPER4AndroidFX"
-git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 echo "Completed, proceeding to lunch"
