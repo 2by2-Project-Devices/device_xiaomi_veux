@@ -32,9 +32,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="veux_global-user 13 TKQ1.221114.001 V816.0.12.0.TKCMIXM release-keys" \
     BuildFingerprint=Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.12.0.TKCMIXM:user/release-keys
     
-# Axion Flags
-AXION_CAMERA_REAR_INFO := 108,64,8
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := アムリタ
-AXION_PROCESSOR := Qualcomm_Snapdragon_695_5G_(SM6375)
-WITH_GMS := true
+# 2by2 Flags
+CUSTOM_PROCESSOR := Qualcomm Snapdragon 695 5G (SM6375)
