@@ -33,4 +33,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Redmi/veux_global/veux:13/TKQ1.221114.001/V816.0.12.0.TKCMIXM:user/release-keys
     
 # 2by2 Flags
-CUSTOM_PROCESSOR := Qualcomm Snapdragon 695 5G (SM6375)
+CUSTOM_PROCESSOR_INFO := Qualcomm Snapdragon 695 5G (SM6375)
