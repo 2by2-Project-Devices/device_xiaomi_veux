@@ -349,7 +349,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlay2201116PI
 
 PRODUCT_PACKAGES += \
-    EuiccOverlay2201116SR
+    EuiccOverlay2201116SR \
+    SettingsOverlay2201116SR
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/overlay/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml \
