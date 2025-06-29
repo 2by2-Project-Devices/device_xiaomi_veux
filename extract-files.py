@@ -47,11 +47,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/init/init.batterysecret.rc': blob_fixup()
         .regex_replace(r'on charger', r'on property:init.svc.vendor.charger=running'),
     
-    'vendor/etc/libnfc-pn557.conf': blob_fixup()
-        .call(lambda file_path, content: 
-              content if "NXP RF" in content 
-              else content + '\n' + open(f"{SRC}/vendor/libnfc-nxp_RF.conf").read()),
-    
     'vendor/lib64/android.hardware.secure_element@1.0-impl.so': blob_fixup()
         .remove_needed('android.hidl.base@1.0.so'),
     
@@ -65,13 +60,6 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib/libstagefright_soft_ac4dec.so', 
      'vendor/lib/libstagefright_soft_ddpdec.so'): blob_fixup()
         .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
-
-    'vendor/etc/libnfc-sn100.conf': blob_fixup()
-        .regex_replace(r'(DEFAULT_ISODEP_ROUTE.*?)0x01', r'\g<1>0xC0')
-        .regex_replace(r'(DEFAULT_SYS_CODE_ROUTE.*?)0x00', r'\g<1>0xC0')
-        .regex_replace(r'(DEFAULT_OFFHOST_ROUTE.*?)0x01', r'\g<1>0xC0')
-        .regex_replace(r'(OFFHOST_ROUTE_ESE.*?)01', r'\g<1>C0')
-        .regex_replace(r'$', r'\nDEFAULT_NFCF_ROUTE=0xC0'),
 }
 
 
